@@ -6,8 +6,21 @@
 	<!-- importing main handler -->
     <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
     <children>
+    <Rectangle
+visible="true"
+opacity=".5"
+height="[650]"
+width="[600]"
+translation="[100,250]"
+color="0x880088FF"/>
+    
     <LabelList
     	id="list"
+    	focusRow="[1]"
+      itemSpacing="[0,0]"
+    	translation="[100,250]"
+    	itemSize="[600,50]"
+      textHorizAlign="center"
     	/>
     <Video
     id="Video"
